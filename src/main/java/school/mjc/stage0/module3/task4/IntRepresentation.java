@@ -7,7 +7,8 @@ public class IntRepresentation {
 
         for (char c : chars) {
             int intValue = (int) c;
-            System.out.print(intValue + " ");
+            char charvalue=(char)intValue;
+            System.out.print(charvalue);
         }
     }
 }
